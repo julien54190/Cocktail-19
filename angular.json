@@ -7,7 +7,11 @@
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
-          "style": "scss"
+          "style": "scss",
+          "skipTests": true,
+          "inlineStyle": true,
+          "inlineTemplate": true,
+          "flat": true
         }
       },
       "root": "",
@@ -98,5 +102,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "54bbf747-4400-4b80-9534-f9a5cdc51b8a"
   }
 }
